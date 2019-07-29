@@ -15,6 +15,7 @@ module.exports = (sequelize, DataTypes) => {
       flagged: DataTypes.BOOLEAN,
       publish: DataTypes.BOOLEAN,
       categoryId: DataTypes.INTEGER,
+      audiourl: DataTypes.STRING,
     },
     {}
   );
